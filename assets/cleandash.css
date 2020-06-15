@@ -1,0 +1,227 @@
+html.wp-toolbar {
+    padding-top: 42px;
+}
+
+body.wp-admin {
+	background-color: #f7f7f7;
+}
+
+#wpadminbar {
+	background-color: white;
+	height: 42px;
+}
+
+#wpadminbar .quicklinks ul {
+	display: inline-block;
+}
+
+#wpadminbar .ab-empty-item, #wpadminbar a.ab-item, #wpadminbar>#wp-toolbar span.ab-label, #wpadminbar>#wp-toolbar span.noticon {
+	color: rgba(0,0,0,0.70);
+}
+
+#wpadminbar #adminbarsearch:before, #wpadminbar .ab-icon:before, #wpadminbar .ab-item:before {
+	color: rgba(0,0,0,0.70);
+}
+
+#wpadminbar ul li {
+	padding: 5px 0;
+}
+
+#wpadminbar ul li:hover {
+	background-color: #f5f5f5;
+}
+
+#wpadminbar .ab-top-menu>li.hover>.ab-item, #wpadminbar.nojq .quicklinks .ab-top-menu>li>.ab-item:focus, #wpadminbar:not(.mobile) .ab-top-menu>li:hover>.ab-item, #wpadminbar:not(.mobile) .ab-top-menu>li>.ab-item:focus {
+	background-color: transparent;
+	color: rgba(0,0,0,0.70);
+}
+
+#wpadminbar .menupop .ab-sub-wrapper {
+	background-color: white;
+	color: rgba(0,0,0,0.70);
+}
+
+#wpadminbar .quicklinks .menupop ul li a, #wpadminbar .quicklinks .menupop ul li a strong, #wpadminbar .quicklinks .menupop.hover ul li a, #wpadminbar.nojs .quicklinks .menupop:hover ul li a {
+	color: rgba(0,0,0,0.86);
+}
+
+#adminmenu, #adminmenu .wp-submenu, #adminmenuback, #adminmenuwrap {
+	background-color: #fff;
+}
+
+#adminmenu div.wp-menu-name, #adminmenu div.wp-menu-image:before {
+	color: rgba(0,0,0,0.70);
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+#adminmenu li a:focus div.wp-menu-image:before, #adminmenu li.opensub div.wp-menu-image:before, #adminmenu li:hover div.wp-menu-image:before {
+	color: #4099e4;
+}
+
+#adminmenu li.menu-top:hover, #adminmenu li.opensub>a.menu-top, #adminmenu li>a.menu-top:focus {
+	background-color: #f5f5f5;
+}
+
+#adminmenu .wp-submenu a {
+	color: rgba(0,0,0,0.70);
+}
+
+#adminmenu li.menu-top:hover .wp-menu-name {
+	/*color: rgba(0,0,0,0.86);*/
+	color: #4099e4;
+}
+
+#collapse-button {
+	color: rgba(0,0,0,0.70);
+}
+
+#adminmenu .wp-has-current-submenu .wp-submenu,
+#adminmenu .wp-has-current-submenu .wp-submenu.sub-open,
+#adminmenu .wp-has-current-submenu.opensub .wp-submenu,
+#adminmenu a.wp-has-current-submenu:focus+.wp-submenu,
+.no-js li.wp-has-current-submenu:hover .wp-submenu {
+	background-color: #fff;
+    border-bottom: 1px solid #f7f7f7;
+}
+
+/*#adminmenu .wp-has-current-submenu .wp-submenu .wp-submenu-head, #adminmenu .wp-menu-arrow, #adminmenu .wp-menu-arrow div, #adminmenu li.current a.menu-top, #adminmenu li.wp-has-current-submenu a.wp-has-current-submenu, .folded #adminmenu li.current.menu-top, .folded #adminmenu li.wp-has-current-submenu {
+	background-color: rgba(0,0,0,0.86);
+}*/
+
+#adminmenu .wp-has-current-submenu .wp-menu-name,
+#adminmenu .current .wp-menu-name  {
+	color: white;
+}
+
+#adminmenu li.wp-has-current-submenu:hover .wp-menu-name {
+	color: white;
+}
+
+/*#adminmenu .opensub .wp-submenu li.current a,*/
+/*#adminmenu .wp-submenu li.current,*/
+#adminmenu .wp-submenu li.current a,
+#adminmenu .wp-submenu li.current a:focus,
+#adminmenu .wp-submenu li.current a:hover,
+#adminmenu a.wp-has-current-submenu:focus+.wp-submenu li.current a {
+	/*background-color: rgba(0,0,0,0.86);*/
+	color: #4099e4;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+#adminmenu .wp-has-current-submenu ul>li>a, .folded #adminmenu li.menu-top .wp-submenu>li>a {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+#adminmenu li.wp-menu-separator {
+	background: #f7f7f7;
+}
+
+#adminmenu .awaiting-mod, #adminmenu .update-plugins {
+    background-color: #f7f7f7;
+    color: rgba(0,0,0,0.86);
+}
+
+.postbox, .notice, div.error, div.updated {
+	border-radius: 5px;
+	border: 0 none;
+}
+
+.metabox-holder .postbox>h3, .metabox-holder .stuffbox>h3, .metabox-holder h2.hndle, .metabox-holder h3.hndle {
+	padding: 15px 12px;
+}
+
+.postbox .handlediv {
+	width: 50px;
+	height: 50px;
+}
+
+.wp-core-ui .button, .wp-core-ui .button-secondary {
+	padding: 5px 15px;
+	border: 0 none;
+	border-radius: 0;
+}
+
+.wp-core-ui .button-primary {
+	background: #4099e4;
+	border: 0 none;
+	transition: all 0.3s;
+}
+
+.wp-core-ui .button-primary:hover {
+	background: #3393e4;
+	border: 0 none;
+}
+
+.row-title {
+    color: rgba(0,0,0,0.96);
+    font-weight: normal;
+}
+
+.row-title:hover {
+	color: #4099e4;
+}
+
+#menu-management .menu-edit, #menu-settings-column .accordion-container, .comment-ays, .feature-filter, .imgedit-group, .manage-menus, .menu-item-handle, .popular-tags, .stuffbox, .widget-inside, .widget-top, .widgets-holder-wrap, .wp-editor-container, p.popular-tags, table.widefat {
+	border: 0 none;
+	border-radius: 5px;
+}
+
+.widefat thead td, .widefat thead th {
+	border-bottom: 1px solid #f5f5f5;
+}
+
+.wp-core-ui select {
+    height: 38px;
+    border-radius: 5px;
+    border: 0 none;
+}
+
+.tablenav {
+	margin-bottom: 20px;
+}
+
+th.sortable a, th.sorted a {
+	padding: 15px 8px;
+}
+
+input[type=date], input[type=datetime-local], input[type=datetime], input[type=email], input[type=month], input[type=number], input[type=password], input[type=search], input[type=tel], input[type=text], input[type=time], input[type=url], input[type=week] {
+	min-height: 38px;
+	border: 0 none;
+	border-radius: 5px;
+}
+
+.tablenav .tablenav-pages .button, .tablenav .tablenav-pages .tablenav-pages-navspan {
+	min-height: 38px;
+	min-width: 38px;
+	line-height: 38px;
+}
+
+ul#adminmenu a.wp-has-current-submenu:after, ul#adminmenu>li.current>a.current:after {
+	border-right-color: #f7f7f7;
+}
+
+.media-upload-form .notice, .media-upload-form div.error, .wrap .notice, .wrap div.error, .wrap div.updated {
+	padding: 5.5px 12px;
+}
+
+#adminmenu li.wp-has-submenu.wp-not-current-submenu.opensub:hover:after {
+    border-right-color: #ffffff;
+}
+
+#screen-meta,
+#screen-meta-links .show-settings {
+    border-color: #f7f7f7;
+}
+
+#adminmenu .wp-has-current-submenu .wp-submenu .wp-submenu-head,
+#adminmenu .wp-menu-arrow,
+#adminmenu .wp-menu-arrow div,
+#adminmenu li.current a.menu-top,
+#adminmenu li.wp-has-current-submenu a.wp-has-current-submenu,
+.folded #adminmenu li.current.menu-top,
+.folded #adminmenu li.wp-has-current-submenu {
+	background-color: #4099e4;
+}
